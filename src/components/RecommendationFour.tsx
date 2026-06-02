@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import Star from "../assets/icons/Star"
 import Cardrec01 from "../assets/images/blogRec-01.jpg"
 import Cardrec02 from "../assets/images/blogRec-02.jpg"
 import Cardrec03 from "../assets/images/blogRec-03.jpg"
@@ -13,6 +12,7 @@ import Cardrec10 from "../assets/images/blogRec-10.jpg"
 import Cardrec11 from "../assets/images/blogRec-11.jpg"
 import Cardrec12 from "../assets/images/blogRec-12.jpg"
 import HelfStar from "../assets/icons/HelfStar"
+import FullStar from "../assets/icons/FullStar"
 
 
 
@@ -29,19 +29,19 @@ const RecommendationFour = () => {
                             <h3>Villa Vista Reina</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Tijarafe, La Palma</span>
@@ -73,19 +73,19 @@ const RecommendationFour = () => {
                             <h3>Villa Veni</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Tazacorte, La Palma</span>
@@ -118,19 +118,19 @@ const RecommendationFour = () => {
                             <h3>Villa Tigotan</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Tijarafe, La Palma</span>
@@ -165,19 +165,19 @@ const RecommendationFour = () => {
                             <h3>Villa Odo</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Lajares, Fuerteventura</span>
@@ -210,19 +210,19 @@ const RecommendationFour = () => {
                             <h3>Villa Mocanes</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Frontera - Los Mocanes, El Hierro</span>
@@ -254,19 +254,19 @@ const RecommendationFour = () => {
                             <h3>Villa Majarona</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Puntagorda, La Palma</span>
@@ -299,19 +299,19 @@ const RecommendationFour = () => {
                             <h3>Villa Deleite</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Lajares, Fuerteventura</span>
@@ -343,19 +343,19 @@ const RecommendationFour = () => {
                             <h3>Villa Caprica</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Las Breñas, Lanzarote</span>
@@ -388,19 +388,19 @@ const RecommendationFour = () => {
                             <h3>Villa Bamanija</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Puerto Calero, Lanzarote</span>
@@ -433,19 +433,19 @@ const RecommendationFour = () => {
                             <h3>Finca Esperanza</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">El Paso, La Palma</span>
@@ -482,16 +482,16 @@ const RecommendationFour = () => {
                             <h3>Casa Ocanto</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
                                     <HelfStar />
@@ -528,19 +528,19 @@ const RecommendationFour = () => {
                             <h3>Casa Alba Marina</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Tazacorte, La Palma</span>

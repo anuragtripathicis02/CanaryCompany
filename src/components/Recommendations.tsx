@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
-import Star from "../assets/icons/star"
 import Cardrec01 from "../assets/images/card-rec-01.jpg"
 import Cardrec02 from "../assets/images/card-rec-02.jpg"
+import FullStar from "../assets/icons/FullStar"
 
 const Recommendations = () => {
   return (
@@ -19,19 +19,19 @@ const Recommendations = () => {
                             <h3>Villa Bajamar</h3>
                             <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                                 <li className="color-light-blue">
-                                    <Star />
+                                    <FullStar />
                                 </li>
                             </ul>
                             <span className="mt-1">Puntagorda, La Palma</span>
