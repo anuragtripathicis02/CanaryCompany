@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Star from "../assets/icons/star"
+import Star from "../assets/icons/Star"
 import Cardrec01 from "../assets/images/blogRec-01.jpg"
 import Cardrec02 from "../assets/images/blogRec-02.jpg"
 import Cardrec03 from "../assets/images/blogRec-03.jpg"
