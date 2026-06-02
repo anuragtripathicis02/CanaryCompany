@@ -34,7 +34,7 @@ const Recommendations = () => {
                                     <FullStar />
                                 </li>
                             </ul>
-                            <span className="mt-1">Puntagorda, La Palma</span>
+                            <span className="mt-1">Puntagorda, La Palma </span>
                             <ul className="d-flex align-items-center flex-wrap gap-2 p-0 m-0 mt-2 list-unstyled">
                                 <li className="btn-card limeGreen">Green, Eco-friendly</li>
                                 <li className="btn-card skyBlue">Ocean View</li>

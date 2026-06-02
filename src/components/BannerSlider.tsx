@@ -14,7 +14,7 @@ import Destination03 from "../assets/images/destination-03.jpg";
 import Destination04 from "../assets/images/destination-04.jpg";
 
 const BannerSlider = () => {
-    const [thumbsSwiper, setThumbsSwiper] = useState(null);
+    const [thumbsSwiper, setThumbsSwiper] = useState<any | null>(null);
 
     return (
         <section className="banner-slider-section">
