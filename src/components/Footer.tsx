@@ -86,9 +86,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <div className="d-flex align-items-center gap-2 justify-content-between">
+          <div className="d-flex align-items-center gap-2 justify-content-md-between justify-content-center flex-md-nowrap flex-wrap">
             <p className="copy-right p-0 m-0">© CanaryCompany.com 2025. All rights reserved.</p>
-            <ul className="p-0 m-0 d-flex align-items-center gap-3">
+            <ul className="p-0 m-0 d-flex align-items-center gap-md-3 gap-2 flex-wrap justify-content-center text-md-end txet-center">
               <li>
                 <Link to="">FAQ</Link>
               </li>

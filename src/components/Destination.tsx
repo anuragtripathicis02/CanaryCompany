@@ -7,7 +7,7 @@ import Destination04 from "../assets/images/destination-04.jpg"
 
 const Destination = () => {
   return (
-        <div className="row my-4">
+        <div className="row my-4 pt-4">
 
             <div className="col-lg-3 mb-lg-0 mb-4 col-md-6">
                 <Link to="" className="destination-card text-center">
