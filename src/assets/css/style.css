@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap');
+
+body {
+    font-family: var(--AndadaPro);
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: var(--title);
+    overflow-x: hidden;
+    background: var(--grey);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --DancingScript: "Dancing Script", cursive;
+    --AndadaPro: "Andada Pro", serif;
+    --black: #000000;
+    --title: #09101a;
+    --white: #ffffff;
+    --lighter-red: #9d0928;
+    --lighter-blue: #2367b0;
+    --lighter-green: #3CB4C7;
+    --grey: #e3e1df;
+    --LimeGreen: #9acd00;
+    --SkyBlue: #34ace0;
+    --BlueTeal: #227093;
+    --Purple: #64279A;
+    --DarkTealGreen: #218c74;
+    --Browndark: #d4a017;
+}
+
+
+.top-header a,
+.btn-theme,
+.sec-footer a,
+.arrow-btn {
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    outline: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+button,
+select {
+    outline: none !important;
+}
+
+ul,
+ol {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+/* End globle css */
+
+h1,
+h2,
+h3 {
+    font-family: var(--DancingScript);
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    line-height: 1.1;
+}
+
+h2 {
+    color: var(--title);
+}
+
+p {
+    font-size: 13px;
+    padding: 0 0 20px;
+    margin: 0;
+    font-weight: 400;
+}
+.btn-theme {
+    padding: 4px 8px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: var(--lighter-green);
+    color: var(--white);
+    text-shadow: none !important;
+    text-transform: none;
+    font-family: var(--DancingScript);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .25);
+    border: none;
+}
+
+
+
+.form-control {
+    border: 1px solid var(--lighter-green);
+    font-size: 12px;
+    padding: 6px 10px;
+    color: #666;
+    border-radius: 5px;
+}
+
+/* Header css start */
+
+.header {
+    z-index: 5;
+    /* position: fixed; */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 13px 0px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+
+.header-right .offcanvas-body {
+    padding: 0px;
+    overflow-y: visible;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+}
+
+.logo {
+    max-width: 132px;
+}
+
+.logo a {
+    outline: none !important;
+}
+
+.header .offcanvas {
+    border-right: none;
+}
+
+.btn-open-menu {
+    box-shadow: none !important;
+    outline: none;
+}
+
+.navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    margin-left: 18px;
+}
+
+.navbar-nav a {
+    position: relative;
+    transition: all 0.3s ease 0s;
+    padding: 10px 0px;
+    color: var(--black);
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.navbar-nav a:hover,
+.navbar-nav .active a {
+    color: var(--lighter-green);
+}
+
+
+.user-auth .right-menu.active {
+    color: var(--red-color);
+}
+
+
+.mobile-nav {
+    width: 36px;
+    height: 36px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+
+.bar1,
+.bar2,
+.bar3 {
+    background-color: var(--black);
+    cursor: pointer;
+    height: 2px;
+    margin: 7px 0px;
+    transition: all 0.25s ease-in-out 0s;
+    width: 30px;
+    display: block;
+    position: absolute;
+}
+
+.bar1 {
+    top: 0px;
+}
+
+.bar2 {
+    top: 8px;
+    width: 20px;
+}
+
+.bar3 {
+    top: 16px;
+}
+
+.open-menu .bar1 {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.open-menu .bar2 {
+    display: none;
+}
+
+.open-menu .bar3 {
+    top: 6px;
+    transform: rotate(-45deg);
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+    border-radius: 0px;
+    border: 0;
+    top: 100%;
+    background: transparent;
+    min-width: auto;
+}
+
+.navbar-nav .nav-item .dropdown-menu li a {
+    color: var(--black);
+    display: block;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    /* background: red; */
+}
+
+
+@media screen and (min-width: 992px) {
+    .header .offcanvas {
+        position: static;
+        z-index: auto;
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 0px;
+        visibility: visible;
+        transition: none 0s ease 0s;
+        transform: inherit;
+        background-color: transparent;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navbar-nav .nav-item:hover .dropdown-menu {
+        pointer-events: auto;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbar-nav .dropdown-menu.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+
+/*********************************/
+
+
+.container {
+    max-width: 1140px;
+}
+
+.header .manu-contact-top {
+    top: 0;
+    position: absolute;
+    right: 0;
+}
+
+.header .header-right {
+    padding-top: 36px;
+}
+
+.navbar-nav .nav-item .dropdown button::after {
+    display: none;
+}
+
+.navbar-nav .nav-item .dropdown button {
+    padding: 0 0 0 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+}
+
+.padding-dropdown {
+    padding-right: 23px !important;
+}
+
+.navbar-nav .nav-item .dropdown button svg {
+    width: 18px;
+    height: 18px;
+}
+
+button:focus, button:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    padding: 6px 10px;
+    background: rgb(227 225 223 / 75%);
+    margin-bottom: 3px;
+}
+
+.text-red {
+    color: var(--lighter-red);
+    padding-left: 9px;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background: var(--white);
+    color: var(--lighter-green);
+}
+
+
+
+.footer-sec .logo-footre img {
+    width: 100px;
+}
+
+.footer-sec .logo-footre a {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.tag-line {
+    font-size: 16px;
+    display: block;
+    padding-bottom: 20px;
+    line-height: 135%;
+}
+
+.footer-sec .logo-bottom p {
+    margin: 0;
+    padding: 0;
+}
+
+.light-blue {
+    color: var(--lighter-blue);
+}
+
+
+.search-btn {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.search-btn button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--lighter-green);
+    border: none;
+    color: var(--white);
+    padding: 4px 8px;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-btn button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.search-btn button:hover {
+    background: var(--lighter-blue);
+}
+
+.footer-box .social-icons a {background: var(--lighter-green);display: block;color: var(--white);padding: 5px;border-radius: 4px;}
+
+.footer-box .social-icons a svg {
+    width: 22px;
+    height: 22px;
+}
+
+.footer-box .social-icons a:hover {
+    transform: translateY(-5px);
+}
+
+.text-small {
+    margin: 10px 0;
+    font-size: 11px;
+}
+
+.search-btn ~ .tag-line {
+    padding-bottom: 10px;
+}
+
+.btn-theme:hover {
+    background: var(--lighter-blue);
+}
+
+
+.footer-bottom {
+    padding-top: 30px;
+}
+
+.footer-bottom ul li a {
+    font-size: 13px;
+    color: var(--title);
+}
+
+
+/****************/
+
+h3 {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 700 !important;
+}
+
+.destination-card h3 {
+    color: var(--lighter-blue);
+}
+
+.destination-card:hover h3, .destination-card:hover img {
+    transform: translateY(-10px);
+}
+
+.destination-card h3, .destination-card img {
+    transition: all 0.5s ease;
+}
+
+/************************/
+
+.datepicker-sec {
+    padding: 25px 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+.card-box {
+    background: var(--white);
+}
+
+.datepicker-sec .date-box {
+    width: calc(20% - 20px);
+    margin: 10px;
+}
+
+.datepicker-sec  .react-datepicker-wrapper {
+    width: 100%;
+}
+
+.react-datepicker-wrapper input.form-control {
+    background: url(../images/date.svg);
+    padding-right: 30px;
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: 23px;
+}
+
+select.form-select {
+    background: url(../images//spinner-new.png);
+    padding-right: 30px;
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 10px;
+}
+
+input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-visible, textarea:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: var(--lighter-green) !important;
+}
+
+
+/**********datepicker************/
+
+.react-datepicker__current-month {font-family: var(--AndadaPro);}
+
+.react-datepicker__header {
+    border: none !important;
+    background: var(--white);
+}
+
+.react-datepicker__day-name {
+    background: var(--lighter-green);
+    margin: 0;
+    color: var(--white);
+    width: calc(14.44% - 1px);
+    border: 1px solid var(--white);
+    min-width: 44px;
+    padding: 2px;
+}
+
+.react-datepicker__day-names {
+    margin: 0;
+    width: 100%;
+}
+
+.react-datepicker__month {
+    margin: 0;
+}
+
+.react-datepicker__day--disabled {
+    background: #c10000 !important;
+}
+
+.react-datepicker__day {
+    background: #218c74;
+    border: 0.5px solid var(--white);
+    color: var(--white);
+    border-radius: 0 !important;
+    width: calc(14.44% - 1px);
+    margin: 0;
+    min-width: 44px;
+    padding: 2px;
+}
+
+.react-datepicker__day:hover {
+    background: var(--lighter-green) !important;
+}
+
+.react-datepicker__day--selected {
+    background: #f8aa00!important;
+    color: #09101a!important;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+    fill: var(--white);
+}
+
+
+/*******************************/
+
+
+.text-box-card {
+    flex: 1 !important;
+}
+
+
+
+
+.heading-box h3 {
+    font-family: var(--AndadaPro);
+    padding-bottom: 24px;
+    font-weight: 400 !important;
+}
+
+.cust-card-box {
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, .25) !important;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cust-card-box .img-box img {
+    width: 100%;
+    display: block;
+    min-height: 100%;
+    max-height: 345px;
+    object-fit: cover;
+    object-position: bottom;
+    transition: all 0.5s ease;
+}
+
+.cust-card-box .text-box-card {
+    padding: 13px 15px 15px;
+}
+
+.cust-card-box .text-box-card h3 {
+    color: var(--title);
+    font-weight: 400 !important;
+    margin-bottom: 5px;
+}
+
+
+.color-light-blue {
+    color: var(--lighter-green);
+}
+
+.cust-card-box .text-box-card ul li svg {
+    width: 17px;
+    height: 17px;
+}
+
+.cust-card-box .text-box-card span {
+    color: #999;
+}
+
+.btn-card {
+    color: var(--white);
+    font-size: 10px;
+    margin: 0 2px 4px 0;
+    padding: 0 7px 0 16px !important;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    display: block;
+    -webkit-border-radius: 15px 2px 2px 15px;
+    -moz-border-radius: 15px 2px 2px 15px;
+    border-radius: 15px 2px 2px 15px;
+    -webkit-box-shadow: 0 1px 0 #c1bba8;
+    -moz-box-shadow: 0 1px 0 #c1bba8;
+    box-shadow: 0 1px 0 #c1bba8;
+    -webkit-transition: .1s ease-in .1s;
+    -moz-transition: .1s ease-in .1s;
+    -o-transition: .1s ease-in .1s;
+    -ms-transition: .1s ease-in .1s;
+    transition: all .1s ease-in .1s;
+    position: relative;
+}
+
+.limeGreen {
+    background: var(--LimeGreen);
+}
+
+.btn-card:before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    background: var(--white);
+    border-radius: 100px;
+}
+
+.skyBlue {
+    background: var(--SkyBlue);
+}
+
+.browndark {
+    background: var(--Browndark);
+}
+
+.blueTeal {
+    background: var(--BlueTeal);
+}
+
+.purple {
+    background: var(--Purple);
+}
+
+.darkTealGreen {
+    background: var(--DarkTealGreen);
+}
+
+.text-title {
+    color: var(--title);
+    font-variant-ligatures: none;
+    font-size: 16px;
+}
+
+.curr, .amount {
+    color: var(--title) !important;
+}
+
+.curr {
+    padding-left: 3px;
+}
+
+.cust-card-box .text-box-card  p {
+    color: var(--title);
+}
+
+.card-text span {
+    color: var(--title) !important;
+    font-size: 10px;
+}
+
+.cust-card-box:hover {
+    transform: translateY(-8px);
+}
+
+.cust-card-box:hover .img-box img {
+    transform: rotate(2deg) scale(1.1);
+}
+
+.cust-card-box .img-box {
+    overflow: hidden;
+}

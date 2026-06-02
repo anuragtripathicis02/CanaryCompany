@@ -1,0 +1,24 @@
+
+
+
+@media (min-width: 992px) {
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1480px) {
+
+}
+
+
+@media screen and (max-width: 1199px) {
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+
+}
