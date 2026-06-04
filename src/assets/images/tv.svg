@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="29.195257"
+   height="26.500006"
+   viewBox="0 0 7.7245783 7.0114601"
+   version="1.1"
+   id="svg1915"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="tv.svg">
+  <defs
+     id="defs1909" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="18.137057"
+     inkscape:cy="4.2152468"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0.5"
+     fit-margin-left="0.1"
+     fit-margin-right="0.1"
+     fit-margin-bottom="0.5" />
+  <metadata
+     id="metadata1912">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.4471433,-290.56919)">
+    <g
+       transform="matrix(0.01809108,0,0,0.01809108,-55.435181,249.14524)"
+       id="g2663">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect13790"
+         d="m 2987.5449,2298.9043 v 295.2988 h 420.3633 v -295.2988 z m 29.6387,31.5039 H 3377.25 v 235.2871 h -360.0664 z"
+         style="opacity:1;fill:#41b6c9;fill-opacity:1;stroke:#41b6c9;stroke-width:3.69439363;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+      <rect
+         style="opacity:1;fill:#41b6c9;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect13794"
+         width="121.69156"
+         height="45.202038"
+         x="3136.8801"
+         y="2617.0986"
+         ry="22.601019"
+         inkscape:export-xdpi="5.1482954"
+         inkscape:export-ydpi="5.1482954"
+         inkscape:export-filename="C:\Users\daria\Documents\WORK_PROJECTS\CanaryCompany\icons\site\20\tv-new.png" />
+      <rect
+         y="2640.5493"
+         x="3081.3335"
+         height="29.447187"
+         width="232.785"
+         id="rect13796"
+         style="opacity:1;fill:#41b6c9;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         inkscape:export-xdpi="5.1482954"
+         inkscape:export-ydpi="5.1482954"
+         inkscape:export-filename="C:\Users\daria\Documents\WORK_PROJECTS\CanaryCompany\icons\site\20\tv-new.png" />
+    </g>
+  </g>
+</svg>

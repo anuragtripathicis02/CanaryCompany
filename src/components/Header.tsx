@@ -37,10 +37,10 @@ const Header = () => {
                         <nav className="w-100">
                             <ul className="navbar-nav flex-lg-row flex-column">
                                 <li className="nav-item dropdown position-relative">
-                                    <Link  to="/accommodation" className=" px-0">
+                                    <Link  to="/holiday-cottages" className=" px-0">
                                         Accommodations
                                     </Link>
-                                    <button className="btn border-0 p-0 ms-1 dropdown-toggle dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button className="btn border-0 d-lg-none d-inline-block p-0 ms-1 dropdown-toggle dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span className="visually-hidden">Toggle Dropdown</span>
                                     </button>
                                     <ul className="dropdown-menu">
@@ -70,12 +70,12 @@ const Header = () => {
                                     <Link  to="/accommodation" className=" px-0">
                                         The Canary Islands
                                     </Link>
-                                    <button className="btn border-0 p-0 ms-1 dropdown-toggle dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button className="btn border-0 d-lg-none d-inline-block p-0 ms-1 dropdown-toggle dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span className="visually-hidden">Toggle Dropdown</span>
                                     </button>
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <Link className="dropdown-item" to="">
+                                            <Link className="dropdown-item" to="/la-palma">
                                                 La Palma
                                             </Link>
                                         </li>
@@ -97,18 +97,18 @@ const Header = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="">Info</Link>
+                                    <Link to="/about-us">About us</Link>
                                 </li>
                                 <li className="nav-item dropdown ">
                                     <Link  to="/accommodation" className=" px-0">
-                                        The Canary Islands
+                                        Info
                                     </Link>
-                                    <button className="btn border-0 p-0 ms-1 dropdown-toggle dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button className="btn border-0 d-lg-none d-inline-block p-0 ms-1 dropdown-toggle dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span className="visually-hidden">Toggle Dropdown</span>
                                     </button>
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <Link className="dropdown-item" to="">
+                                            <Link className="dropdown-item" to="/activities-la-Ppalma">
                                                Activities La Palma
                                             </Link>
                                         </li>
@@ -128,23 +128,23 @@ const Header = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="dropdown-item" to="">
+                                            <Link className="dropdown-item" to="/faq">
                                                 FAQ
                                             </Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="">Blog</Link>
+                                    <Link to="/blog">Blog</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="">Contact</Link>
+                                    <Link to="/contact-us">Contact</Link>
                                 </li>
                                 <li className="nav-item dropdown ">
                                     <Link  to="/accommodation" className=" px-0">
                                         English
                                     </Link>
-                                    <button className="btn border-0 p-0 ms-1 dropdown-toggle dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button className="btn border-0 d-lg-none d-inline-block p-0 ms-1 dropdown-toggle dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span className="visually-hidden">Toggle Dropdown</span>
                                     </button>
                                     <ul className="dropdown-menu">

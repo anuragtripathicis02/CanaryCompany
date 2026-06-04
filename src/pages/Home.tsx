@@ -7,14 +7,18 @@ import SearchForm from "../components/SearchForm"
 
 const Home = () => {
   return (
-    <div className="container">
-      <BannerSlider />
-      <Destination />
-      <SearchForm />
-      <Recommendations />
-      <RecommendationFour />
-      <HomeFeatures />
-    </div>
+    <>
+      <div className="cust-container pt-3">
+          <BannerSlider />
+      </div>
+      <div className="container">
+        <Destination />
+        <SearchForm />
+        <Recommendations />
+        <RecommendationFour />
+        <HomeFeatures />
+      </div>
+    </>
   )
 }
 

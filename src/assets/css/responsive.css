@@ -95,6 +95,28 @@ header .offcanvas-header {
 }
 
 
+
+.plp-filter {
+    width: 100%;
+}
+
+.plp-list {
+    width: 100%;
+    margin: 0;
+}
+
+.plplist-sec {
+    padding-top: 20px;
+}
+
+.pt-64 {
+    padding-top: 0px !important;
+}
+
+.main-gallery {
+    height: 450px;
+}
+
 }
 
 
@@ -117,6 +139,100 @@ header .offcanvas-header {
 
 .main-slider {
     padding: 20px 0 20px;
+}
+
+
+.plplist-sec .text-box-card .plp-box-bottom .text-left-plp {
+    width: 100%;
+}
+
+.plplist-sec .text-box-card .plp-box-bottom .text-right-plp {
+    padding: 15px 0 0;
+}
+
+.plp-list .card-box .img-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.plp-list .card-box .img-box {
+    width: 100%;
+}
+
+.pagination-filter button {
+    font-size: 10px;
+    padding: 6px 9px;
+}
+
+.main-gallery {
+    height: 250px;
+}
+
+
+.thumb-gallery  {
+    display: none;
+}
+
+
+
+
+
+
+.tabs-com-sec .nav-pills {
+    width: 120px;
+}
+
+.tabs-com-sec .tab-content {
+    width: calc(100% - 120px);
+    padding: 10px;
+}
+
+.text-img-sdjust-box img {
+    width: 100%;
+    padding: 0 0 10px;
+    float: none;
+}
+
+
+
+
+.Faq .accordion-item button {
+    font-size: 15px;
+    padding: 10px 10px;
+    line-height: 20px;
+}
+
+ul.listing-box-dot li {
+    font-size: 14px; 
+}
+
+
+.block-list-sec .info-img {
+    height: 180px;
+}
+
+.mape-sec iframe {
+    height: 250px;
+}
+
+
+.listing-card .card-list {
+    width: 100%;
+    margin: 0;
+}
+
+
+.tabs-content-box iframe {
+    height: 260px;
+}
+
+.word-brk {
+    word-break: break-all;
+}
+
+.calendar-wrapper.opencalendar-box div[role="table"] {
+    overflow: scroll;
 }
 
 

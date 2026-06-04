@@ -29,17 +29,17 @@ const BannerSlider = () => {
                 speed={800}
                 slidesPerView={3}
                  breakpoints={{
-        0: {
-            slidesPerView: 1,
-        },
-        200: {
-            slidesPerView: 1,
-        },
-        768: {
-            slidesPerView: 3,
-        }
-       
-    }}
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    200: {
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                    }
+                
+                }}
                   autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
@@ -49,7 +49,7 @@ const BannerSlider = () => {
                     stretch: 0,
                     depth: 200,
                     modifier: 1,
-                    scale: 0.9,
+                    scale: 0.8,
                     slideShadows: false,
                 }}
                 thumbs={{

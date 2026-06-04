@@ -35,7 +35,7 @@ const Recommendations = () => {
                                 </li>
                             </ul>
                             <span className="mt-1">Puntagorda, La Palma </span>
-                            <ul className="d-flex align-items-center flex-wrap gap-2 p-0 m-0 mt-2 list-unstyled">
+                            <ul className="d-flex align-items-center flex-wrap gap-0 p-0 m-0 mt-2 list-unstyled">
                                 <li className="btn-card limeGreen">Green, Eco-friendly</li>
                                 <li className="btn-card skyBlue">Ocean View</li>
                                 <li className="btn-card blueTeal">Pool</li>
@@ -63,7 +63,7 @@ const Recommendations = () => {
                     <div className="text-box-card d-flex flex-column">
                             <h3>Villa Relax</h3>
                             <span className="mt-1">Tijarafe, La Palma</span>
-                            <ul className="d-flex align-items-center flex-wrap gap-2 p-0 m-0 mt-2 list-unstyled">
+                            <ul className="d-flex align-items-center flex-wrap gap-0 p-0 m-0 mt-2 list-unstyled">
                                 <li className="btn-card limeGreen">Green, Eco-friendly</li>
                                 <li className="btn-card browndark">Hot Tub</li>
                                 <li className="btn-card skyBlue">Ocean View</li>
