@@ -44,7 +44,7 @@ const Plplist = () => {
                                     <FullStar />
                                 </li>
                             </ul>
-                        <span className="mt-1">Tijarafe, La Palma</span>
+                        <span className="mt-1 mb-2 d-block">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
                         <div className="text-end w-100 mt-4 text-title mb-3">
@@ -92,7 +92,7 @@ const Plplist = () => {
                                     <FullStar />
                                 </li>
                             </ul>
-                        <span className="mt-1">Tijarafe, La Palma</span>
+                        <span className="mt-1 mb-2 d-block">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
                         <div className="text-end w-100 mt-4 text-title mb-3">
@@ -140,7 +140,7 @@ const Plplist = () => {
                                     <FullStar />
                                 </li>
                             </ul>
-                        <span className="mt-1">Tijarafe, La Palma</span>
+                        <span className="mt-1 mb-2 d-block">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
                         <div className="text-end w-100 mt-4 text-title mb-3">
@@ -171,7 +171,7 @@ const Plplist = () => {
                 <div className="plp-box-top d-flex flex-wrap w-100">
                     <div className='text-left-plp'>
                         <h3>Villa Relax </h3>
-                        <span className="mt-1">Tijarafe, La Palma</span>
+                        <span className="mt-1 mb-2 d-block">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
                         <div className="text-end w-100 mt-4 text-title mb-3">
@@ -202,7 +202,7 @@ const Plplist = () => {
                 <div className="plp-box-top d-flex flex-wrap w-100">
                     <div className='text-left-plp'>
                         <h3>Villa Relax </h3>
-                        <span className="mt-1">Tijarafe, La Palma</span>
+                        <span className="mt-1 mb-2 d-block">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
                         <div className="text-end w-100 mt-4 text-title mb-3">
@@ -233,7 +233,7 @@ const Plplist = () => {
                 <div className="plp-box-top d-flex flex-wrap w-100">
                     <div className='text-left-plp'>
                         <h3>Villa Relax </h3>
-                        <span className="mt-1">Tijarafe, La Palma</span>
+                        <span className="mt-1 mb-2 d-block">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
                         <div className="text-end w-100 mt-4 text-title mb-3">
@@ -264,7 +264,7 @@ const Plplist = () => {
                 <div className="plp-box-top d-flex flex-wrap w-100">
                     <div className='text-left-plp'>
                         <h3>Villa Relax </h3>
-                        <span className="mt-1">Tijarafe, La Palma</span>
+                        <span className="mt-1 mb-2 d-block">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
                         <div className="text-end w-100 mt-4 text-title mb-3">
