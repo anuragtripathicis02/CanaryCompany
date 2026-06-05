@@ -13,12 +13,17 @@ import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
 import ContactUs from "../pages/ContactUs";
 import ProductDetails from "../pages/ProductDetails";
+import Requestbooking from "../pages/Requestbooking";
+import Login from "../pages/Login";
+import ResetPassword from "../pages/ResetPassword";
+import Review from "../pages/Review";
 
 const AppRoutes = () => {
   return (
     <div className="layout">
         <BrowserRouter>
         <Header />
+        <div className="main">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/holiday-cottages" element={<Accommodation />} />
@@ -30,9 +35,14 @@ const AppRoutes = () => {
                 <Route path="/blog-details" element={<BlogDetails />} />
                 <Route path="/contact-us" element={<ContactUs />} />
                 <Route path="/villa-relax" element={<ProductDetails />} />
+                <Route path="/vc-luxury-village-ii" element={<Requestbooking />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/reset-password" element={<ResetPassword />} />
+                <Route path="/review" element={<Review />} />
                 
                
             </Routes>
+        </div>
           <Footer />
         </BrowserRouter>
     </div>

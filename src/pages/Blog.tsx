@@ -1,7 +1,8 @@
 import BlogList from "../components/BlogList"
 import IslandRight from "../components/IslandRight"
 
-const Blog = () => {
+const Blog = () => { 
+    
   return (
      <div className="blog-sec pt-4">
         <div className="container">

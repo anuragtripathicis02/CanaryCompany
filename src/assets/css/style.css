@@ -1381,3 +1381,23 @@ ul.list-icons li sub {
 .opencalendar-box .react-datepicker  .react-datepicker__month-container {
     width: 100%;
 }
+
+.main {
+    min-height: calc(100svh - 483px);
+}
+
+
+.login-sec {
+    min-height: calc(100svh - 483px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.review-rating li {
+    font-size: 28px;
+    color: #ccc;
+    cursor: pointer;
+    padding: 0;
+}

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 import DatePicker from "react-datepicker";
+import { Link } from "react-router-dom";
 
 
 const PdpdetailBooking = () => {
@@ -89,7 +90,10 @@ const PdpdetailBooking = () => {
                     <p className="p-0 m-0">Please select start date</p>
                 </div>
                 <div className="date-box button-box w-100 m-0 mb-md-0">
-                    <Button type="button" className="submit-btn btn-theme w-100">Request booking</Button>
+                    <Link to="/vc-luxury-village-ii" className="submit-btn btn-theme w-100 d-block text-center py-1">Request booking</Link>
+                </div>
+                <div className="date-box button-box w-100 m-0 mb-md-0 mt-3">
+                    <Link to="/review" className="submit-btn btn-theme w-100 d-block text-center py-1">Review</Link>
                 </div>
             </div>
         </div>
