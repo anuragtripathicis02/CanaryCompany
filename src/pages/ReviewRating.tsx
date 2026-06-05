@@ -1,7 +1,7 @@
 import { Form } from "react-bootstrap"
 import { Link } from "react-router-dom"
 
-const Review = () => {
+const ReviewRating = () => {
   return (
     <div className="login-sec my-4">
         <div className="container">
@@ -40,4 +40,4 @@ const Review = () => {
   )
 }
 
-export default Review
+export default ReviewRating

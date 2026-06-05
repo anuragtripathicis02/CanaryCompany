@@ -16,7 +16,7 @@ import ProductDetails from "../pages/ProductDetails";
 import Requestbooking from "../pages/Requestbooking";
 import Login from "../pages/Login";
 import ResetPassword from "../pages/ResetPassword";
-import Review from "../pages/Review";
+import ReviewRating from "../pages/ReviewRating";
 
 const AppRoutes = () => {
   return (
@@ -38,7 +38,7 @@ const AppRoutes = () => {
                 <Route path="/vc-luxury-village-ii" element={<Requestbooking />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/reset-password" element={<ResetPassword />} />
-                <Route path="/review" element={<Review />} />
+                <Route path="/review" element={<ReviewRating />} />
                 
                
             </Routes>
