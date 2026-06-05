@@ -875,6 +875,7 @@ input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-vis
     position: relative;
     display: block;
     overflow: hidden;
+    padding-top: 15px;
 }
 
 

@@ -6,6 +6,7 @@ import Plp04 from '../assets/images/blogRec-04.jpg'
 import Plp05 from '../assets/images/blogRec-05.jpg'
 import Plp06 from '../assets/images/blogRec-06.jpg'
 import Plp07 from '../assets/images/blogRec-07.jpg'
+import FullStar from '../assets/icons/FullStar'
 
 const Plplist = () => {
     const scrollToTop = () => {
@@ -26,6 +27,23 @@ const Plplist = () => {
                 <div className="plp-box-top d-flex flex-wrap w-100">
                     <div className='text-left-plp'>
                         <h3>Villa Relax </h3>
+                         <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                            </ul>
                         <span className="mt-1">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
@@ -57,6 +75,23 @@ const Plplist = () => {
                 <div className="plp-box-top d-flex flex-wrap w-100">
                     <div className='text-left-plp'>
                         <h3>Villa Relax </h3>
+                         <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                            </ul>
                         <span className="mt-1">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
@@ -88,6 +123,23 @@ const Plplist = () => {
                 <div className="plp-box-top d-flex flex-wrap w-100">
                     <div className='text-left-plp'>
                         <h3>Villa Relax </h3>
+                         <ul className="d-flex align-items-center gap-1 p-0 m-0 mb-3 list-unstyled">
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                                <li className="color-light-blue">
+                                    <FullStar />
+                                </li>
+                            </ul>
                         <span className="mt-1">Tijarafe, La Palma</span>
                     </div>
                     <div className='text-right-plp text-end'>
