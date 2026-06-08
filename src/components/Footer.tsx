@@ -93,16 +93,16 @@ const Footer = () => {
                 <Link to="">FAQ</Link>
               </li>
               <li>
-                <Link to="">LegalPrivacy</Link>
+                <Link to="">Legal</Link>
               </li>
               <li>
-                <Link to="">PolicyGeneral</Link>
+                <Link to="">Privacy Policy</Link>
               </li>
               <li>
-                <Link to="">Business</Link>
+                <Link to="">General Business Terms</Link>
               </li>
               <li>
-                <Link to="/login">TermsLogin</Link>
+                <Link to="/login">Login</Link>
               </li>
             </ul>
           </div>
