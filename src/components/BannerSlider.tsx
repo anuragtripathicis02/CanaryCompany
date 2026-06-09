@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import type { Swiper as SwiperType } from "swiper";
 import { EffectCoverflow, Autoplay, Thumbs } from "swiper/modules";
 
 import "swiper/css";
@@ -14,12 +15,21 @@ import Destination03 from "../assets/images/destination-03.jpg";
 import Destination04 from "../assets/images/destination-04.jpg";
 
 const BannerSlider = () => {
-    const [thumbsSwiper, setThumbsSwiper] = useState<any | null>(null);
+    const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
+    const [loaded, setLoaded] = useState(false);
+
+    const location = useLocation();
 
     return (
-        <section className="banner-slider-section">
+        <section
+            className="banner-slider-section"
+            style={{
+                visibility: loaded ? "visible" : "hidden",
+            }}
+        >
             {/* Main Slider */}
             <Swiper
+                key={location.pathname}
                 modules={[EffectCoverflow, Autoplay, Thumbs]}
                 className="main-slider"
                 effect="coverflow"
@@ -27,23 +37,26 @@ const BannerSlider = () => {
                 loop={true}
                 grabCursor={true}
                 speed={800}
+                observer={true}
+                observeParents={true}
+                resizeObserver={true}
+                updateOnWindowResize={true}
                 slidesPerView={3}
-                 breakpoints={{
+                breakpoints={{
                     0: {
                         slidesPerView: 1,
                     },
-                    200: {
+                    576: {
                         slidesPerView: 2,
                     },
                     992: {
                         slidesPerView: 3,
-                    }
-                
+                    },
                 }}
-                  autoplay={{
+                autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
-                  }}
+                }}
                 coverflowEffect={{
                     rotate: 40,
                     stretch: 0,
@@ -58,13 +71,13 @@ const BannerSlider = () => {
                             ? thumbsSwiper
                             : null,
                 }}
+                onInit={() => setLoaded(true)}
             >
                 <SwiperSlide>
                     <Link to="/" className="destination-card">
                         <div className="destination-content">
                             <p>Luxury Villa & Ocean View</p>
                         </div>
-
                         <img src={Destination01} alt="Destination 1" />
                     </Link>
                 </SwiperSlide>
@@ -101,7 +114,7 @@ const BannerSlider = () => {
                         <div className="destination-content">
                             <p>Luxury Villa & Ocean View</p>
                         </div>
-                        <img src={Destination01} alt="Destination 1" />
+                        <img src={Destination01} alt="Destination 5" />
                     </Link>
                 </SwiperSlide>
 
@@ -110,7 +123,7 @@ const BannerSlider = () => {
                         <div className="destination-content">
                             <p>Luxury Villa & Ocean View</p>
                         </div>
-                        <img src={Destination01} alt="Destination 1" />
+                        <img src={Destination02} alt="Destination 6" />
                     </Link>
                 </SwiperSlide>
 
@@ -119,20 +132,21 @@ const BannerSlider = () => {
                         <div className="destination-content">
                             <p>Luxury Villa & Ocean View</p>
                         </div>
-                        <img src={Destination01} alt="Destination 1" />
+                        <img src={Destination03} alt="Destination 7" />
                     </Link>
                 </SwiperSlide>
-
             </Swiper>
+
             {/* Thumbnail Slider */}
             <Swiper
                 onSwiper={setThumbsSwiper}
-                className="thumbs-slider"
+                className="thumbs-slider mt-4"
                 slidesPerView={"auto"}
                 spaceBetween={15}
-                centeredSlides={false}
                 watchSlidesProgress={true}
                 slideToClickedSlide={true}
+                observer={true}
+                observeParents={true}
             >
                 <SwiperSlide>
                     <img src={Destination01} alt="" className="thumb-image" />
@@ -149,17 +163,18 @@ const BannerSlider = () => {
                 <SwiperSlide>
                     <img src={Destination04} alt="" className="thumb-image" />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Destination04} alt="" className="thumb-image" />
-                </SwiperSlide>
 
-                {/* <SwiperSlide>
-                    <img src={Destination04} alt="" className="thumb-image" />
+                <SwiperSlide>
+                    <img src={Destination01} alt="" className="thumb-image" />
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img src={Destination04} alt="" className="thumb-image" />
-                </SwiperSlide> */}
+                    <img src={Destination02} alt="" className="thumb-image" />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <img src={Destination03} alt="" className="thumb-image" />
+                </SwiperSlide>
             </Swiper>
         </section>
     );
