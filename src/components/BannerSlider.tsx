@@ -40,10 +40,10 @@ const BannerSlider = () => {
                     }
                 
                 }}
-                  autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                  }}
+                //   autoplay={{
+                //     delay: 2500,
+                //     disableOnInteraction: false,
+                //   }}
                 coverflowEffect={{
                     rotate: 40,
                     stretch: 0,
