@@ -28,10 +28,10 @@ const Plpfilter = () => {
                         <div className="date-box w-100 m-0 mb-4">
                             <h6 className="mb-2">When?</h6>
                             <div className="filter-box mb-2">
-                                <DatePicker selected={arrivalDate} onChange={(date: Date | null) => {   setArrivalDate(date);   if (departureDate && date && date >= departureDate) { setDepartureDate(null);   } }} placeholderText="Arrival Date" className="form-control" minDate={new Date()} />
+                                <DatePicker selected={arrivalDate}  dateFormat="dd/MM/yyyy" onChange={(date: Date | null) => {   setArrivalDate(date);   if (departureDate && date && date >= departureDate) { setDepartureDate(null);   } }} placeholderText="Arrival Date" className="form-control" minDate={new Date()} />
                             </div>
                             <div className="filter-box">
-                                <DatePicker selected={departureDate} onChange={(date: Date | null) => setDepartureDate(date)} placeholderText="Departure Date" className="form-control" minDate={arrivalDate || new Date()} disabled={!arrivalDate}/>
+                                <DatePicker selected={departureDate}  dateFormat="dd/MM/yyyy" onChange={(date: Date | null) => setDepartureDate(date)} placeholderText="Departure Date" className="form-control" minDate={arrivalDate || new Date()} disabled={!arrivalDate}/>
                             </div>
                         </div>
                         <div className="date-box w-100 m-0 mb-4">

@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-3 col-md-12 mb-lg-0 mb-4">
               <div className="footer-box">
-                  <p>I am searching for specific accommodation or place in the Canary Islands</p>
+                  <p className="pb-1 mb-0">I am searching for specific accommodation or place in the Canary Islands</p>
                   <Form className="search-btn">
                     <Form.Group className="mb-3" controlId="formGroupEmail">
                       <Form.Label className="d-none">Email address</Form.Label>
@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-3 col-md-12 mb-lg-0 mb-4">
               <div className="footer-box">
-                <p className="tag-line">Send me travel tips, your new holiday homes and special offers!</p>
+                <p className="tag-line mb-0 pb-1">Send me travel tips, your new holiday homes and special offers!</p>
                   <Form>
                     <Form.Group className="mb-2" controlId="formGroupEmail">
                       <Form.Control type="email" placeholder="My email is.." />

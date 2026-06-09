@@ -33,17 +33,17 @@ const BannerSlider = () => {
                         slidesPerView: 1,
                     },
                     200: {
-                        slidesPerView: 1,
+                        slidesPerView: 2,
                     },
-                    768: {
+                    992: {
                         slidesPerView: 3,
                     }
                 
                 }}
-                  autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                  }}
+                //   autoplay={{
+                //     delay: 2500,
+                //     disableOnInteraction: false,
+                //   }}
                 coverflowEffect={{
                     rotate: 40,
                     stretch: 0,

@@ -6,7 +6,7 @@ const ReviewRating = () => {
     <div className="login-sec my-4">
         <div className="container">
             <div className="row justify-content-center">
-                <div className="col-lg-6 col-md-8">
+                <div className="col-md-12">
                     <div className="login-box bg-white p-3 mb-4">
                         <h3 className="mb-3 weight-400">We would like to know your opinion about Villa Relax</h3>
                         <p className="m-0 p-0">Please rate your experience:</p>

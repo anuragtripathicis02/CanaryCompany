@@ -128,7 +128,7 @@ p {
 
 .form-control {
     border: 1px solid var(--lighter-green);
-    font-size: 12px;
+    font-size: 13px;
     padding: 6px 10px;
     color: #666;
     border-radius: 5px;
@@ -515,9 +515,14 @@ h3 {
 }
 
 .datepicker-sec .date-box {
-    width: calc(20% - 20px);
+    width: calc(18% - 20px);
     margin: 10px;
 }
+
+.datepicker-sec .date-box:nth-child(3) {
+    width: calc(28% - 20px);
+}
+
 
 .datepicker-sec  .react-datepicker-wrapper {
     width: 100%;
@@ -626,7 +631,7 @@ input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-vis
     width: 100%;
     display: block;
     min-height: 100%;
-    max-height: 345px;
+    /* max-height: 345px; */
     object-fit: cover;
     object-position: bottom;
     transition: all 0.5s ease;
@@ -783,7 +788,7 @@ input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-vis
 .feature-card .img-box img {
     width: 100%;
     display: block;
-    height: 160px;
+    /* height: 160px; */
     object-fit: cover;
 }
 
@@ -808,7 +813,7 @@ input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-vis
 }
 
 @media (min-width: 768px) {
-.main-slider .swiper-slide-active {
+.main-slider .swiper-slide-active img{
   transform: scale(1.3) !important;
 }
 }
@@ -874,7 +879,7 @@ input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-vis
 .destination-card {
     position: relative;
     display: block;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding-top: 15px;
 }
 
@@ -883,7 +888,7 @@ input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-vis
     position: absolute;
     left: 0px;
     right:0px;
-    bottom: 4px;
+    bottom: -28px;
     z-index: 2;
     color: #fff;
     display: flex;
@@ -923,7 +928,7 @@ input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-vis
     max-height: none;
     max-width: none;
     opacity: 1;
-    transform: scale(0.7);
+    /* transform: scale(0.7); */
 }
 
 
@@ -936,7 +941,7 @@ input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-vis
 
 .main-slider .swiper-slide-active .destination-content {
     opacity: 1;
-    transform: translateY(0);
+    /* transform: translateY(0); */
 }
 
 

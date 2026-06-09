@@ -8,7 +8,7 @@ import SearchForm from "../components/SearchForm"
 const Home = () => {
   return (
     <>
-      <div className="cust-container pt-3">
+      <div className="cust-container pt-3 d-md-block d-none">
           <BannerSlider />
       </div>
       <div className="container">

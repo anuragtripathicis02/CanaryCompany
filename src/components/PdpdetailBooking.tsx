@@ -45,13 +45,13 @@ const PdpdetailBooking = () => {
                 <div className="date-box w-100 m-0 mb-4">
                     <h6 className="mb-2">When do you plan to arrive?</h6>
                     <div className="filter-box ">
-                        <DatePicker selected={arrivalDate} onChange={(date: Date | null) => {   setArrivalDate(date);   if (departureDate && date && date >= departureDate) { setDepartureDate(null);   } }} placeholderText="Arrival Date" className="form-control" minDate={new Date()} />
+                        <DatePicker selected={arrivalDate}  dateFormat="dd/MM/yyyy" onChange={(date: Date | null) => {   setArrivalDate(date);   if (departureDate && date && date >= departureDate) { setDepartureDate(null);   } }} placeholderText="Arrival Date" className="form-control" minDate={new Date()} />
                     </div>
                 </div>
                 <div className="date-box w-100 m-0 mb-4">
                     <h6 className="mb-2">When do you plan to leave?</h6>
                     <div className="filter-box">
-                        <DatePicker selected={departureDate} onChange={(date: Date | null) => setDepartureDate(date)} placeholderText="Departure Date" className="form-control" minDate={arrivalDate || new Date()} disabled={!arrivalDate}/>
+                        <DatePicker selected={departureDate}  dateFormat="dd/MM/yyyy" onChange={(date: Date | null) => setDepartureDate(date)} placeholderText="Departure Date" className="form-control" minDate={arrivalDate || new Date()} disabled={!arrivalDate}/>
                     </div>
                 </div>
                 <div className="date-box w-100 m-0 mb-4">
@@ -85,6 +85,42 @@ const PdpdetailBooking = () => {
                     </select>
                     <span className="small-text">Babies (age &lt;3) are free of charge!</span>
                 </div>
+
+                <div className="p-2 w-100 text-center mb-3 price-calculato">
+                    <ul className="p-0 m-0 list-unstyled d-flex align-items-center justify-content-between gap-2 mb-2">
+                        <li><strong>Adults:</strong></li>
+                        <li><strong>1</strong></li>
+                    </ul>
+                    <ul className="p-0 m-0 list-unstyled d-flex align-items-center justify-content-between gap-2 mb-2">
+                        <li><strong>Children:</strong></li>
+                        <li><strong>1</strong></li>
+                    </ul>
+                    <ul className="p-0 m-0 list-unstyled d-flex align-items-center justify-content-between gap-2 mb-2">
+                        <li><strong>Babies:</strong></li>
+                        <li><strong></strong></li>
+                    </ul>
+                    <ul className="p-0 m-0 list-unstyled d-flex align-items-center justify-content-between gap-2 mb-2">
+                        <li><strong>From:</strong></li>
+                        <li><strong>09/06/2026</strong></li>
+                    </ul>
+                    <ul className="p-0 m-0 list-unstyled d-flex align-items-center justify-content-between gap-2 mb-2">
+                        <li><strong>To:</strong></li>
+                        <li><strong>26/06/2026</strong></li>
+                    </ul>
+                    <ul className="p-0 m-0 list-unstyled d-flex align-items-center justify-content-between gap-2 mb-2">
+                        <li><strong>Nights:</strong></li>
+                        <li><strong>17</strong></li>
+                    </ul>
+                    <ul className="p-0 m-0 list-unstyled d-flex align-items-center justify-content-between gap-2 mb-2">
+                        <li><strong>Prepayment:</strong></li>
+                        <li><strong>€ 943.50</strong></li>
+                    </ul>
+                    <ul className="p-0 m-0 list-unstyled d-flex align-items-center justify-content-between gap-2 mb-2">
+                        <li><strong>Total:</strong></li>
+                        <li><strong>€ 6,590.00</strong></li>
+                    </ul>
+                </div>
+
                 <div className=" p-2 w-100 text-center mb-3 bg-light-blue">
                     <p className="p-0 m-0">Please select start date</p>
                 </div>

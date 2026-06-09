@@ -86,13 +86,14 @@ header .offcanvas-header {
 }
 
 
-.datepicker-sec .date-box {
+.datepicker-sec .date-box, .datepicker-sec .date-box:nth-child(3)  {
     width: calc(50% - 20px);
 }
 
 .datepicker-sec .date-box.button-box {
     width: 100%;
 }
+
 
 
 
@@ -125,7 +126,7 @@ header .offcanvas-header {
 
 @media screen and (max-width: 767px) {
 
-.datepicker-sec .date-box {
+.datepicker-sec .date-box, .datepicker-sec .date-box:nth-child(3)  {
     width: 100%;
     margin: 6px 0;
 }

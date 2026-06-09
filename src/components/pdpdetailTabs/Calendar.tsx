@@ -19,7 +19,8 @@ const Calendar = () => {
                     selected={selectedDate}
                     onChange={(date: Date | null) => setSelectedDate(date)}
                     inline
-                    minDate={today}
+                    minDate={today}  
+                    dateFormat="dd/MM/yyyy"
                     filterDate={(date) => date >= today}
                     dayClassName={(date) => {
                     return date < today ? "past-date" : "available-date";

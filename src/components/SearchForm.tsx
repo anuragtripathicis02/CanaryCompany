@@ -13,10 +13,10 @@ const SearchForm = () => {
   return (
     <div className="datepicker-sec d-flex align-items-center flex-wrap card-box mb-4">
       <div className="date-box">
-        <DatePicker selected={arrivalDate} onChange={(date: Date | null) => {   setArrivalDate(date);   if (departureDate && date && date >= departureDate) { setDepartureDate(null);   } }} placeholderText="Arrival Date" className="form-control" minDate={new Date()} />
+        <DatePicker selected={arrivalDate}  dateFormat="dd/MM/yyyy" onChange={(date: Date | null) => {   setArrivalDate(date);   if (departureDate && date && date >= departureDate) { setDepartureDate(null);   } }} placeholderText="Arrival Date" className="form-control" minDate={new Date()} />
       </div>
       <div className="date-box">
-        <DatePicker selected={departureDate} onChange={(date: Date | null) => setDepartureDate(date)} placeholderText="Departure Date" className="form-control" minDate={arrivalDate || new Date()} disabled={!arrivalDate}/>
+        <DatePicker selected={departureDate}  dateFormat="dd/MM/yyyy" onChange={(date: Date | null) => setDepartureDate(date)} placeholderText="Departure Date" className="form-control" minDate={arrivalDate || new Date()} disabled={!arrivalDate}/>
       </div>
       <div className="date-box">
         <select className="form-select form-control search-input" value={island} onChange={(e) => setIsland(e.target.value)}>
