@@ -797,7 +797,7 @@ input:focus, select:focus, textarea:focus, input:focus-visible, select:focus-vis
 /*****banner slider css**********/
 
 .main-slider {
-  padding: 50px 0;
+  padding: 33px 0 50px;
 }
 
 .main-slider .swiper-slide {
@@ -1406,4 +1406,8 @@ ul.review-rating li {
     color: #ccc;
     cursor: pointer;
     padding: 0;
+}
+
+.fs-16 {
+    font-size: 14px !important;
 }

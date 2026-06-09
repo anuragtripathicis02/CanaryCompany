@@ -19,18 +19,18 @@ const ReviewRating = () => {
                         </ul>
                         <div className="form-login">
                             <div className="date-box w-100 m-0 mb-3">
-                                <label className="mb-1">Your Name:</label>
+                                <label className="mb-1 fs-14">Your Name:</label>
                                 <Form.Group className="mb-0" controlId="formGroupEmail">
                                     <Form.Control type="text" placeholder="" />
                                 </Form.Group>
                             </div>
                             <div className="date-box w-100 m-0 mb-3">
-                                <label className="mb-1">Your Review:</label>
+                                <label className="mb-1 fs-14">Your Review:</label>
                                 <Form.Group className="mb-0" controlId="formGroupEmail">
                                      <Form.Control as="textarea" rows={5} />
                                 </Form.Group>
                             </div>
-                            <Link to="" className="submit-btn btn-theme py-2 px-4 w-100 d-block text-center">Submit</Link>
+                            <Link to="" className="submit-btn btn-theme py-2 px-4 text-center">Submit</Link>
                         </div>
                     </div>
                 </div>
