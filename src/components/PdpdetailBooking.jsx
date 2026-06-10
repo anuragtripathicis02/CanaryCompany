@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const PdpdetailBooking = () => {
     
-          const [arrivalDate, setArrivalDate] = useState<Date | null>(null);
-          const [departureDate, setDepartureDate] = useState<Date | null>(null);
+          const [arrivalDate, setArrivalDate] = useState(null);
+          const [departureDate, setDepartureDate] = useState(null);
         
           const [island, setIsland] = useState("");
           const [island1, setIsland1] = useState("");
@@ -45,13 +45,13 @@ const PdpdetailBooking = () => {
                 <div className="date-box w-100 m-0 mb-4">
                     <h6 className="mb-2">When do you plan to arrive?</h6>
                     <div className="filter-box ">
-                        <DatePicker selected={arrivalDate}  dateFormat="dd/MM/yyyy" onChange={(date: Date | null) => {   setArrivalDate(date);   if (departureDate && date && date >= departureDate) { setDepartureDate(null);   } }} placeholderText="Arrival Date" className="form-control" minDate={new Date()} />
+                        <DatePicker selected={arrivalDate}  dateFormat="dd/MM/yyyy" onChange={(date) => {   setArrivalDate(date);   if (departureDate && date && date >= departureDate) { setDepartureDate(null);   } }} placeholderText="Arrival Date" className="form-control" minDate={new Date()} />
                     </div>
                 </div>
                 <div className="date-box w-100 m-0 mb-4">
                     <h6 className="mb-2">When do you plan to leave?</h6>
                     <div className="filter-box">
-                        <DatePicker selected={departureDate}  dateFormat="dd/MM/yyyy" onChange={(date: Date | null) => setDepartureDate(date)} placeholderText="Departure Date" className="form-control" minDate={arrivalDate || new Date()} disabled={!arrivalDate}/>
+                        <DatePicker selected={departureDate}  dateFormat="dd/MM/yyyy" onChange={(date) => setDepartureDate(date)} placeholderText="Departure Date" className="form-control" minDate={arrivalDate || new Date()} disabled={!arrivalDate}/>
                     </div>
                 </div>
                 <div className="date-box w-100 m-0 mb-4">

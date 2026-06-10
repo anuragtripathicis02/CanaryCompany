@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import type { Swiper as SwiperType } from "swiper";
 import { EffectCoverflow, Autoplay, Thumbs } from "swiper/modules";
 
 import "swiper/css";
@@ -15,7 +14,7 @@ import Destination03 from "../assets/images/destination-03.jpg";
 import Destination04 from "../assets/images/destination-04.jpg";
 
 const BannerSlider = () => {
-    const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
+    const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const [loaded, setLoaded] = useState(false);
 
     const location = useLocation();
