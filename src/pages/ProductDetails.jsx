@@ -10,6 +10,7 @@ import Img8 from "../assets/images/blogRec-08.jpeg";
 import PdpdetailTabs from "../components/PdpdetailTabs";
 import PdpdetailBooking from "../components/PdpdetailBooking";
 
+
 const ProductDetails = () => {
         const images = [
         Img1,
