@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import type { Swiper as SwiperClass } from "swiper";
 import {
   Navigation,
   Thumbs,
@@ -12,11 +11,11 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "swiper/css/free-mode";
 
-const GallerySlider = ({ images }: { images: string[] }) => {
-  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
-  const [zoomedIndex, setZoomedIndex] = useState<number | null>(null);
+const GallerySlider = ({ images }) => {
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [zoomedIndex, setZoomedIndex] = useState(null);
 
-  const handleZoom = (index: number) => {
+  const handleZoom = (index) => {
     if (zoomedIndex === index) {
       setZoomedIndex(null);
     } else {
@@ -24,7 +23,7 @@ const GallerySlider = ({ images }: { images: string[] }) => {
     }
   };
 
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+  const handleMouseMove = (e) => {
     const { left, top, width, height } =
       e.currentTarget.getBoundingClientRect();
 

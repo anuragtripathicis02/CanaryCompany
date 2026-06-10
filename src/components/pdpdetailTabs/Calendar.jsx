@@ -6,7 +6,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 const Calendar = () => {
     const today = new Date();
-    const [selectedDate, setSelectedDate] = useState<Date | null>(today);
+    const [selectedDate, setSelectedDate] = useState(today);
 
   return (
     <div className="pdp-details-tab">
@@ -17,7 +17,7 @@ const Calendar = () => {
              <div className="calendar-wrapper opencalendar-box">
                 <DatePicker
                     selected={selectedDate}
-                    onChange={(date: Date | null) => setSelectedDate(date)}
+                    onChange={(date) => setSelectedDate(date)}
                     inline
                     minDate={today}  
                     dateFormat="dd/MM/yyyy"
